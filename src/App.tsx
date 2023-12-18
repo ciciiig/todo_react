@@ -8,13 +8,13 @@ export const App: FC = () => {
 
   return (
     <Router>
-        <main className='app'>
+      <main className='app'>
         <Routes>
-            <Route path="/" element={<App />}/>
-            <Route path="/register" element={<Register />}/>
-            <Route path="/login" element={<Login />}/>
+          <Route path="/" element={<App />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
-        </main>
+      </main>
     </Router>
   )
 }

@@ -12,8 +12,8 @@ export const Register: FC = () => {
     const [user, setUser] = useState('')
     const [validName, setValidName] = useState(false)
     const [userFocus, setUserFocus] = useState(false)
-    
-    const [usersList, setUsersList] = useState<string[]>([])    
+
+    const [usersList, setUsersList] = useState<string[]>([])
 
     const [password, setPassword] = useState('')
     const [validPassword, setValidPassword] = useState(false)
