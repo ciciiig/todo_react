@@ -50,8 +50,6 @@ export const Register: FC = () => {
     }, [usersList])
 
     const checkIfUsernameExists = (usernameEmail: string) => {
-        console.log(usersList);
-        
         if (!usersList.includes(usernameEmail)) {
             setUsersList(prevUsers => [...prevUsers, usernameEmail])
             setSuccess(true)
