@@ -1,5 +1,5 @@
-import { FC, FormEvent, useEffect, useRef, useState } from "react"
 import "./Login.css"
+import { FC, FormEvent, useEffect, useRef, useState } from "react"
 
 export const Login: FC = () => {
     const userRef = useRef<HTMLInputElement | null>(null)
@@ -67,6 +67,12 @@ export const Login: FC = () => {
                         />
                         <button>Sign In</button>
                     </form>
+                    <p>
+                        Need an account?
+                        <span className="line">
+                            <a href="/register">Sign Up</a>
+                        </span>
+                    </p>
                 </section>
             )}
 

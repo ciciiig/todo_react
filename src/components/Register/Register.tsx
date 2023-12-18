@@ -119,6 +119,12 @@ export const Register: FC = () => {
                         </p>
                         <button disabled={!validName || !validPassword}>Sign Up</button>
                     </form>
+                    <p>
+                        Already have an account?
+                        <span className="line">
+                            <a href="/login">Login</a>
+                        </span>
+                    </p>
                 </section>
             )}
         </>
